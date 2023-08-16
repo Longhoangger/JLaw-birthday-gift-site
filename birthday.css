@@ -1,0 +1,97 @@
+body{
+    height:fit-content;
+    margin: 0;
+    margin-bottom: 50px;;
+    font-family: 'Happy Monkey', cursive;
+    color: #fff;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    text-align: center;
+    scroll-behavior: smooth;
+}
+.container{
+    text-shadow: 1px 1px 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#avatar{
+    border: 6px solid #efb0c9;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bday-text{
+    background: #efb0c9;
+    padding: 5px 10px;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+.gift-1, .gift-2, .gift-3, .gift-4, .cheers{
+    margin-top: 50px;
+}
+
+.gift-text{
+    margin: 15px 0px 0px 0px ;
+}
+
+.gift-img{
+    background-image: url("img/gift-cover.jpg");
+    background-size:cover;
+    height: 500px;
+    width: 500px;
+    margin: 15px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#cheers-img{
+    height: 250px;
+}
+
+
+#gift1:hover{
+    background-image: url("img/gift1-img.gif");
+    background-size:cover;
+    cursor: pointer;
+}
+
+
+#gift2:hover{
+    background-image: url("img/gift2-img.gif");
+    background-size:cover;
+    cursor: pointer;
+}
+
+#gift3:hover{
+    background-image: url("img/gift3-img.gif");
+    background-size:cover;
+    cursor: pointer;
+}
+
+#gift4:hover{
+    background-image: url("img/gift4-img.gif");
+    background-size:cover;
+    cursor: pointer;
+}
+
+#cheers-img:hover{
+    background-image: url("img/cheers.gif");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#footer{
+    margin: 50px;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+#course{
+    color: #fff;
+}
